@@ -1,0 +1,148 @@
+@media screen and (max-width: 700px) {
+    .container {
+        width: 450px;
+        margin: 40px auto 0;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .players h2 {
+        font-size: 18px;
+        margin: 6px auto 8px;
+    }
+
+    .playerSameStyle {
+        padding: 3px 30px;
+    }
+
+    .diceCard {
+        width: 65px;
+    }
+
+    .rollBtn {
+        margin: 20px auto;
+        width: 85px;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    .optionsBlock {
+        width: 350px;
+        margin: 20px auto 0;
+    }
+
+    .settings,
+    .totalBlock {
+        padding: 10px;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .renameBtn {
+        width: 80px;
+        height: 30px;
+    }
+
+    .firstPlayerScore,
+    .secondPlayerScore,
+    .firstPlayerNameForScore,
+    .secondPlayerNameForScore {
+        width: 110px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 300px;
+        margin: 30px auto 0;
+    }
+
+    h1 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .players h2 {
+        font-size: 14px;
+        margin: 4px auto 5px;
+    }
+
+    .playerSameStyle {
+        padding: 2px 20px;
+    }
+
+    .diceCard {
+        width: 50px;
+    }
+
+    .rollBtn {
+        margin: 10px auto;
+        width: 65px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .optionsBlock {
+        width: 280px;
+        margin: 20px auto 0;
+    }
+
+    .settings,
+    .totalBlock {
+        padding: 8px;
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+
+    .renameBtn {
+        width: 60px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    .firstPlayerScore,
+    .secondPlayerScore,
+    .firstPlayerNameForScore,
+    .secondPlayerNameForScore {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .renameBlock {
+        width: 250px;
+        margin: 30px auto 0;
+    }
+
+    input {
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    label {
+        margin-top: 15px;
+        font-size: 17px;
+    }
+
+    .saveRename {
+        width: 100px;
+        height: 28px;
+        font-size: 15px;
+        margin: 15px auto;
+    }
+
+    .renameBlock h2 {
+        font-size: 18px;
+    }
+
+    .closeBtn {
+        margin-right: 10px;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/optionsBlock.css">
+    <link rel="stylesheet" href="./css/renameBlock.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Dice game</h1>
+        </header>
+        <div class="players">
+            <div class="first-player playerSameStyle">
+                <h2 class="firstPlayerName">Player 1</h2>
+                <img class="diceCard firstDice" src="./images/black.png" alt="">
+            </div>
+            <div class="second-player playerSameStyle">
+                <h2 class="secondPlayerName">Player 2</h2>
+                <img class="diceCard secondDice" src="./images/black.png" alt="">
+            </div>
+        </div>
+        <button class="rollBtn">RoLL</button>
+    </div>
+    <div class="optionsBlock">
+        <div class="settings">
+            <button class="renameBtn">Rename</button>
+        </div>
+        <div class="totalBlock">
+            <div class="firstPlayerNameForScore">Player 1</div>
+            <div class="firstPlayerScore">0</div>
+            <div class="secondPlayerNameForScore">Player 2</div>
+            <div class="secondPlayerScore">0</div>
+        </div>
+
+    </div>
+    <div class="renameBlock">
+        <div class="closeBtn">x</div>
+        <h2>Change Player's Name</h2>
+        <label for="firstPlayerName">First Player</label>
+        <input type="text" id="firstPlayerName" placeholder="Enter a new player name">
+        <label for="secondPlayerName">Second Player</label>
+        <input type="text" id="secondPlayerName" placeholder="Enter a new player name">
+        <button class="saveRename">Save</button>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

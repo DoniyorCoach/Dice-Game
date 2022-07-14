@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    border: 2px solid rgb(226, 214, 214);
+    margin: 60px auto 0;
+    border-radius: 5px;
+    background-color: rgb(248, 242, 243);
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 22px;
+    font-family: "Diplomata SC";
+}
+
+.players {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+.players h2 {
+    text-align: center;
+    margin: 8px auto 10px;
+    font-size: 20px;
+}
+
+.playerSameStyle {
+    border: 2px dotted rgb(128, 128, 128);
+    padding: 8px 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 247, 204);
+}
+
+.diceCard {
+    display: block;
+    width: 90px;
+    margin: 5px auto;
+}
+
+.rollBtn {
+    display: block;
+    margin: 25px auto;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.rollBtn:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+    border: 2px dotted gray;
+    color: black;
+    background-color: #fff;
+}
+
+
+

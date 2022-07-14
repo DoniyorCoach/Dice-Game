@@ -1,0 +1,55 @@
+.renameBlock {
+    display: none;
+    width: 350px;
+    margin: 50px auto 0;
+    border: 2px solid gray;
+    border-radius: 3px;
+    text-align: center;
+}
+
+input,
+label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin-top: 5px;
+    height: 30px;
+    color: gray;
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.saveRename {
+    display: block;
+    width: 120px;
+    height: 33px;
+    background-color: rgb(105, 236, 105);
+    color: #fff;
+    font-size: 18px;
+    border-style: none;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.saveRename:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    background-color: rgb(95, 95, 243);
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
